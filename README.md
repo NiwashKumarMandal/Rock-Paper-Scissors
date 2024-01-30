@@ -17,6 +17,8 @@ This Rock Paper Scissors project is a web-based game built using HTML, CSS, and 
 - **HTML:** Used for structuring the game interface and buttons.
 - **CSS:** Used for styling the visual presentation of the game elements, including buttons and score display.
 - **JavaScript:** Used for implementing the game logic, including player input handling, computer move generation, and determining the winner of each round.
+  <pre>
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" /></pre>
 
 ## Usage:
 1. **Choosing Moves:**
