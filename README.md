@@ -1,6 +1,8 @@
 <img src="cover1.png" width="100%">
 
 # Rock Paper Scissors Project
+## Dive into the project
+[<img src="./images/rock-paper-scissors.png" width="65px" alt="coin-icon">](https://niwashkumarmandal.github.io/Rock-Paper-Scissors/)<span><em>(Tap on icon to view the project)</em></span>
 
 ## Overview:
 This Rock Paper Scissors project is a web-based game built using HTML, CSS, and JavaScript. It allows users to play the classic Rock Paper Scissors game against the computer. Players can choose their move (rock, paper, or scissors), and the computer randomly selects its move. The game then determines the winner based on the rules of Rock Paper Scissors.
