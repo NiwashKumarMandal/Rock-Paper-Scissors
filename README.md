@@ -1,3 +1,5 @@
+<img src="cover1.png" width="100%">
+
 # Rock Paper Scissors Project
 
 ## Overview:
