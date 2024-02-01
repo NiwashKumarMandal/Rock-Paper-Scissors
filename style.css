@@ -93,3 +93,31 @@ button:hover{
 .whole{
     height: 100vh;
 }
+
+@media (max-width: 767px) {
+    .choices {
+        flex-direction: column; /* Stack choices vertically on small devices */
+        gap: 1rem; /* Reduce gap between choices */
+    }
+    .whole{
+        height: 100%;
+    }
+    .msg-container{
+        margin-top: 2rem;
+    }
+    #msg{
+        display: inline;
+        background-color: #081b31;
+        color: #ffff;
+        font-size: 1rem;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+    button{
+       
+        margin-top: 2rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+        padding: 0.9rem;
+    }
+}
