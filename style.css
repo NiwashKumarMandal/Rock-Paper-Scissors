@@ -3,6 +3,9 @@
     padding: 0;
     text-align: center;
 }
+body {
+    height: 100%;
+}
 
 h1{
     background-color: #2D3250;
@@ -97,10 +100,20 @@ button:hover{
 @media (max-width: 767px) {
     .choices {
         flex-direction: column; /* Stack choices vertically on small devices */
-        gap: 1rem; /* Reduce gap between choices */
+        gap: .5rem; 
+        margin-top: 2rem;
     }
     .whole{
         height: 100%;
+    }
+    .score-board{
+        font-size:1.5rem ;
+        margin-top: .5rem;
+        gap: 5rem;
+    }
+    #user-score,
+    #comp-score{
+        font-size: 3rem;
     }
     .msg-container{
         margin-top: 2rem;
@@ -109,15 +122,15 @@ button:hover{
         display: inline;
         background-color: #081b31;
         color: #ffff;
-        font-size: 1rem;
+        font-size: 1.5rem;
         border-radius: 1rem;
         padding: 1rem;
     }
     button{
        
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         font-size: 1rem;
         border-radius: 1rem;
-        padding: 0.9rem;
+        padding: 1rem;
     }
 }
